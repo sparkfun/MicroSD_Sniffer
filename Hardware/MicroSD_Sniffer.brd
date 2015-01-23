@@ -54,9 +54,9 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -168,12 +168,22 @@
 <text x="15.7988" y="3.2258" size="1.016" layer="21" font="vector" ratio="15" rot="R90">CLK</text>
 <text x="18.3388" y="3.2258" size="1.016" layer="21" font="vector" ratio="15" rot="R90">DAT0</text>
 <text x="20.8788" y="3.2258" size="1.016" layer="21" font="vector" ratio="15" rot="R90">DAT1</text>
-<dimension x1="-6.35" y1="0" x2="-6.35" y2="27.94" x3="-8.89" y3="13.97" textsize="1.778" textratio="15" layer="47"/>
-<dimension x1="0" y1="35.56" x2="46.99" y2="35.56" x3="23.495" y3="36.83" textsize="1.778" textratio="15" layer="47"/>
-<text x="21.59" y="25.4" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<dimension x1="-6.35" y1="0" x2="-6.35" y2="27.94" x3="-8.89" y3="13.97" textsize="1.778" textratio="15" layer="47" visible="yes"/>
+<dimension x1="0" y1="35.56" x2="46.99" y2="35.56" x3="23.495" y3="36.83" textsize="1.778" textratio="15" layer="47" visible="yes"/>
+<text x="21.59" y="25.4" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">V01</text>
 <text x="4.6736" y="-16.3068" size="1.651" layer="51" ratio="10">Revised by: Patrick Alberts</text>
 <text x="-6.35" y="-3.81" size="1.778" layer="51" ratio="10">PCB must be no thicker than 0.75mm</text>
-<text x="19.05" y="-13.97" size="1.651" layer="51" ratio="12">Timothy Holmberg </text>
+<text x="19.05" y="-13.97" size="1.651" layer="51" ratio="12">Tim Holmberg </text>
+<dimension x1="52.07" y1="7.62" x2="52.07" y2="17.78" x3="53.34" y3="12.7" textsize="1.778" textratio="15" layer="47"/>
+<text x="19.05" y="20.32" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">microSD Sniffer </text>
+<text x="2.1082" y="3.2258" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">DAT2</text>
+<text x="5.6388" y="5.0292" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">CD</text>
+<text x="7.1882" y="3.2258" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">CMD</text>
+<text x="9.7282" y="3.2258" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">GND</text>
+<text x="12.2682" y="3.2258" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">VCC</text>
+<text x="14.8082" y="3.2258" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">CLK</text>
+<text x="17.3482" y="3.2258" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">DAT0</text>
+<text x="19.8882" y="3.2258" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">DAT1</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1908,6 +1918,10 @@ design rules under a new name.</description>
 <wire x1="8.89" y1="21.549646875" x2="8.860065625" y2="21.57958125" width="0.254" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="4,16,6044458e02e89f86"/>
+<approved hash="4,16,1c826f0de7e49cc4"/>
+</errors>
 </board>
 </drawing>
 </eagle>

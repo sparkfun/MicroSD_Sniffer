@@ -19200,8 +19200,9 @@ NOTE: CD1 and CD2 are connected internally</description>
 <sheet>
 <plain>
 <text x="104.14" y="73.66" size="1.778" layer="97">PCB must be no thicker than 0.75mm</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">V10</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">V01</text>
 <text x="148.336" y="6.604" size="2.54" layer="94">Revised by: Patrick Alberts</text>
+<text x="165.608" y="11.43" size="2.54" layer="94">Tim Holmberg</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -19214,12 +19215,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="NAME" x="215.646" y="126.238" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="227.076" y="84.074" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="233.68" y="45.72"/>
-<instance part="LOGO2" gate="G$1" x="211.582" y="37.592"/>
-<instance part="LOGO3" gate="G$1" x="148.59" y="32.766"/>
+<instance part="LOGO1" gate="G$1" x="223.52" y="45.72"/>
+<instance part="LOGO2" gate="G$1" x="203.962" y="37.592"/>
+<instance part="LOGO3" gate="G$1" x="143.51" y="32.766"/>
 <instance part="U1" gate="G$1" x="38.1" y="93.98"/>
-<instance part="FID1" gate="G$1" x="246.38" y="33.02"/>
-<instance part="FID2" gate="G$1" x="241.3" y="33.02"/>
+<instance part="FID1" gate="G$1" x="241.3" y="38.1"/>
+<instance part="FID2" gate="G$1" x="246.38" y="38.1"/>
 <instance part="GND1" gate="1" x="139.7" y="96.52"/>
 <instance part="GND2" gate="1" x="71.12" y="96.52"/>
 <instance part="SUPPLY1" gate="G$1" x="139.7" y="111.76"/>
@@ -19234,7 +19235,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="96.52" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="96.52" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="93.98" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="91.44" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="88.9" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
@@ -19248,10 +19250,9 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="U2" gate="G$1" pin="CD2"/>
 <wire x1="203.2" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
 <junction x="187.96" y="88.9"/>
-</segment>
-<segment>
 <wire x1="203.2" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="CD1"/>
+<junction x="187.96" y="93.98"/>
 </segment>
 <segment>
 <wire x1="55.88" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
